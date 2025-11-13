@@ -2,3 +2,9 @@
 
 // var longestSubstring = new LongestSubString().GetLongestSubstring();
 // Console.WriteLine(longestSubstring);
+
+// var twoSum = new TwoSum().GetTwoSum();
+// foreach (var item in twoSum)
+// {
+//     Console.WriteLine(item);
+// }
