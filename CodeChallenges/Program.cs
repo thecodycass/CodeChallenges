@@ -1,3 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using CodeChallenges.Challenges;
 
-Console.WriteLine("Hello, World!");
+// var longestSubstring = new LongestSubString().GetLongestSubstring();
+// Console.WriteLine(longestSubstring);
