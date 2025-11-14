@@ -12,5 +12,8 @@
 // var russianDoll = new RussianDoll().GetRussianDollEnvelopes();
 // Console.WriteLine(russianDoll);
 
-var validParentheses = new ValidParentheses().IsValid();
-Console.WriteLine(validParentheses);
+// var validParentheses = new ValidParentheses().IsValid();
+// Console.WriteLine(validParentheses);
+
+// var binarySearch = new BinarySearch().GetBinarySearch();
+// Console.WriteLine(binarySearch);
