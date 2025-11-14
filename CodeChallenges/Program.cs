@@ -8,3 +8,6 @@
 // {
 //     Console.WriteLine(item);
 // }
+
+var russianDoll = new RussianDoll().GetRussianDollEnvelopes();
+Console.WriteLine(russianDoll);
