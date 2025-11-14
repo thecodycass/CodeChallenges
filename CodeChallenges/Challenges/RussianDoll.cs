@@ -34,21 +34,29 @@ public class RussianDoll
         // 2. Extract heights and run LIS on them
         var envelopesLength = envelopes.Length;
         var tails = new int[envelopesLength];
-        var len = 0;
+        var len = 0; // Counter length
 
         for (var i = 0; i < envelopesLength; i++)
         {
             var height = envelopes[i][1];
 
-            // Binary search on tails[0..len)
+            // Binary search on tails[0...len)
             var left = 0;
             var right = len;
             while (left < right)
             {
+                /*
+                 * (right - left) to find the distance
+                 * Add that to left and divide by 2 to get the mid-point from left to len.
+                 */
                 var mid = left + (right - left) / 2;
+                /* If the mid-point value is smaller than the tallest found height, we move the left to the mid-point
+                 * since we know the numbers from the mid-point and to the start are smaller than the height.
+                 */
                 if (tails[mid] < height)
                     left = mid + 1;
                 else
+                    // If the mid-point is greater than the current height, we can move right.
                     right = mid;
             }
 
