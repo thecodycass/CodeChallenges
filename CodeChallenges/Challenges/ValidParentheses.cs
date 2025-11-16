@@ -30,19 +30,14 @@ public class ValidParentheses
          * If the stack is not empty after each iteration, we will know parentheses are out of order.
          */
         var stack = new Stack<char>();
-
         foreach (var c in s)
         {
-            if (c == '{') stack.Push('}');
-            else if (c == '[') stack.Push(']');
-            else if (c == '(') stack.Push(')');
-            else
-            {
-                if (stack.Count == 0 || stack.Pop() != c) return false;
-            }
+            if (c.Equals('(')) stack.Push(')');
+            else if (c.Equals('{')) stack.Push('}');
+            else if (c.Equals('[')) stack.Push(']');
+            else 
+            if (stack.Count == 0 || stack.Pop() != c) return false;
         }
-
-        // All opens must be closed
         return stack.Count == 0;
     }
 }

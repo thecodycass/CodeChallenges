@@ -20,20 +20,18 @@ public class BinarySearch
 
     public int GetBinarySearch()
     {
-        // To do this, we will need to literally use a binary search... hence the name
         var length = nums.Length;
         var left = 0;
         var right = length - 1;
-        
-        while (left <= right)
-        {
-            // Find the mid-point of the spread between left and right.
-            var mid = left + (right - left) / 2;
 
+        while (left < right)
+        {
+            var mid = left + (right - left) / 2;
             if (nums[mid] > target)
             {
                 right = mid - 1;
-            } else if (nums[mid] < target)
+            }
+            else if (nums[mid] < target)
             {
                 left = mid + 1;
             }
@@ -42,7 +40,7 @@ public class BinarySearch
                 return mid;
             }
         }
-        // If not found
+        
         return -1;
     }
 }

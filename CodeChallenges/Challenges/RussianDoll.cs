@@ -20,7 +20,7 @@ public class RussianDoll
     private readonly int[][] envelopes = [[1,3],[3,5],[6,7],[6,8],[8,4],[9,5]]; // The value is a great edge case to use
     
     /*
-     * [[5,4],[6,4],[6,7],[2,3]]
+     * Example envelopes: [[5,4],[6,4],[6,7],[2,3]]
      * We can see that the pattern is:
      * [2,3] -> [5,4] -> [6,7] which represents the output of 3
      */
