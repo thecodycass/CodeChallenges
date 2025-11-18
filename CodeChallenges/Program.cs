@@ -23,3 +23,6 @@
 // {
 //     Console.WriteLine("[" + string.Join(",", item) + "]");
 // }
+
+// var containsDuplicate = new ContainsDuplicate().HasDuplicate();
+// Console.WriteLine(containsDuplicate);
