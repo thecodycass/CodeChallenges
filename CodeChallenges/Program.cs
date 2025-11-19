@@ -26,3 +26,6 @@
 
 // var containsDuplicate = new ContainsDuplicate().HasDuplicate();
 // Console.WriteLine(containsDuplicate);
+
+// var validAnagram = new ValidAnagram().IsAnagram();
+// Console.WriteLine(validAnagram);
