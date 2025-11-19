@@ -29,3 +29,5 @@
 
 // var validAnagram = new ValidAnagram().IsAnagram();
 // Console.WriteLine(validAnagram);
+
+// var groupAnagram = new GroupAnagrams().Solution();
