@@ -17,10 +17,7 @@ namespace CodeChallenges.Challenges;
  */
 public class ValidParentheses
 {
-    private readonly string s = "(){}[][]()"; // True
-    // private readonly string s = "({[])}"; // False
-    
-    public bool IsValid()
+    public static bool SolveProblem(string s)
     {
         if (string.IsNullOrEmpty(s)) return false;
         

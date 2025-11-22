@@ -11,12 +11,10 @@
 
 // var russianDoll = new RussianDoll().GetRussianDollEnvelopes();
 // Console.WriteLine(russianDoll);
-//
-// var validParentheses = new ValidParentheses().IsValid();
-// Console.WriteLine(validParentheses);
 
-// var binarySearch = new BinarySearch().GetBinarySearch();
-// Console.WriteLine(binarySearch);
+// Console.WriteLine(ValidParentheses.SolveProblem("{[]}"));
+
+// Console.WriteLine(BinarySearch.SolveProblem([-1,0,3,5,9,12], 9));
 
 // var binaryTreeLevelOrderTraversal = new BinaryTreeLevelOrderTraversal().GetLevelOrder();
 // foreach (var item in binaryTreeLevelOrderTraversal)

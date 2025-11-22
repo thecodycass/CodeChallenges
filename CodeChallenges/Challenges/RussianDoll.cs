@@ -75,7 +75,7 @@ public class RussianDoll
         {
             if (a[width] == b[width]) // Check width
             { 
-                return b[height].CompareTo(a[height]); // Compare height descending
+                return b[height].CompareTo(a[height]); // Compare height descendingq
             }
             return a[width].CompareTo(b[width]); // Compare width ascending
         });

@@ -22,13 +22,7 @@ public class CountSubstringWithKFrequency()
 
     public int GetSubstringCoundWithKFrequency()
     {
-        var left = 0;
-        var frequency = 0;
-        
-        for (var right = 0; right < S.Length; right++)
-        {
-            
-        }
+
         return 0;
     }
 }
